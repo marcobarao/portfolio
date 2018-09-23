@@ -1,0 +1,11 @@
+.main-menu {
+  display: inline-block;
+}
+
+.main-menu > .item {
+  color: var(--color-tertiary);
+  font-size: 0.9em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 45px;
+}

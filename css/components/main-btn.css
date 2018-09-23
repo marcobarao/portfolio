@@ -1,0 +1,18 @@
+.main-btn {
+  display: inline-block;
+  padding: 14px 45px 14px 45px;
+  border-radius: 100px;
+  margin-right: 0;
+  border: 0 none;
+  background-color: var(--color-primary);
+  color: var(--color-zero);
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0.9;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.main-btn:hover {
+  opacity: 1;
+}
