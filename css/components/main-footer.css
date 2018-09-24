@@ -1,0 +1,47 @@
+.main-footer {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-footer .action {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-footer .action:not(:last-child) {
+  margin-right: 58px;
+}
+
+.main-footer > .social {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main-footer .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.main-footer  .link {
+  display: block;
+  background-repeat: no-repeat;
+  width: 20px;
+  text-indent: -9999px;
+}
+
+.main-footer .link[href*="https://twitter"] {
+  background-image: url('../../img/twitter-zero.svg');
+}
+
+.main-footer .link[href*="https://linkedin"] {
+  background-image: url('../../img/linkedin-zero.svg');
+}
+
+.main-footer .link[href*="https://github"] {
+  background-image: url('../../img/github-zero.svg');
+}
