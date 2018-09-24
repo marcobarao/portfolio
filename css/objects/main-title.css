@@ -1,0 +1,14 @@
+.main-title {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: normal;
+  color: var(--color-tertiary);
+}
+
+.main-title::after{
+  content: "";
+  display: block;
+  width: inherit;
+  height: 2px;
+  background-color: var(--color-tertiary);
+}
