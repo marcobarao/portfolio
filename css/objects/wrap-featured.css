@@ -1,0 +1,9 @@
+.wrap-featured {
+  position: relative;
+  background-image: linear-gradient(to right, var(--color-primary) 33%, var(--color-zero) 0);
+  border-bottom: 18px solid var(--primary-color);
+  box-sizing: border-box;
+  padding: 140px 75px 0;
+  text-align: center;
+  height: 100vh;
+}

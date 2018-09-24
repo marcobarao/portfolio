@@ -1,0 +1,16 @@
+.main-profile {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 70px;
+  border: 18px solid var(--color-primary);
+  float: left;
+  background-color: var(--color-secondary);
+}
+
+.main-profile > .code {
+  width: 256px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 24px solid var(--color-primary);
+  float: left;
+}
