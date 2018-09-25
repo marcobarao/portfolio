@@ -1,0 +1,16 @@
+.main-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-tertiary);
+}
+
+.main-top .arrow {
+  width: 22px;
+}
