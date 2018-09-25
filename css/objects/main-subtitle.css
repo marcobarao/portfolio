@@ -1,7 +1,16 @@
 .main-subtitle {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: normal;
+  text-align: center;
   color: var(--color-tertiary);
-  opacity: 0.6;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+
+.main-subtitle.-zero {
+  color: var(--color-zero);
+  opacity: 0.8;
+}
+
+.main-subtitle.-mt{
+  margin-top: 60px;
 }

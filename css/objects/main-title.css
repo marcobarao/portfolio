@@ -1,14 +1,11 @@
 .main-title {
-  display: inline-block;
   font-size: 40px;
   font-weight: normal;
-  color: var(--color-tertiary);
+  color: var(--color-primary);
+  text-align: center;
+  margin-top: 50px;
 }
 
-.main-title::after{
-  content: "";
-  display: block;
-  width: inherit;
-  height: 2px;
-  background-color: var(--color-tertiary);
+.main-title.-zero {
+  color: var(--color-zero);
 }

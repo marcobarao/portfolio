@@ -1,6 +1,6 @@
-.wrap-about {
+.wrap-portfolio {
   height: 100%;
   box-sizing: border-box;
   padding: 20px 30px 20px 30px;
-  background-color: var(--color-zero);
+  background-color: var(--color-tertiary);
 }

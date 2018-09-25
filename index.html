@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="./css/objects/wrap-about.css">
   <link rel="stylesheet" href="./css/objects/main-title.css">
   <link rel="stylesheet" href="./css/objects/main-subtitle.css">
+  <link rel="stylesheet" href="./css/objects/wrap-portfolio.css">
+  <link rel="stylesheet" href="./css/objects/wrap-contact.css">
   <!-- Importando Components -->
   <link rel="stylesheet" href="./css/components/main-header.css">
   <link rel="stylesheet" href="./css/components/main-menu.css">
@@ -34,6 +36,10 @@
   <link rel="stylesheet" href="./css//components/main-presentation.css">
   <link rel="stylesheet" href="./css//components/main-skills.css">
   <link rel="stylesheet" href="./css//components/main-achievements.css">
+  <link rel="stylesheet" href="./css//components/main-portfolio.css">
+  <link rel="stylesheet" href="./css//components/main-card.css">
+  <link rel="stylesheet" href="./css//components/main-expand.css">
+  <link rel="stylesheet" href="./css//components/main-form.css">
   <link rel="stylesheet" href="./css/components/main-footer.css">
   <!-- Importando Trumps -->
 </head>
@@ -92,8 +98,7 @@
       </p>
     </article>
     <article class="main-skills">
-      <h2 class="main-subtitle">Habilidades</h2>
-      <p class="paragraph">Minhas principais habilidades e uma estimativa de conhecimento:</p>
+      <h2 class="main-subtitle -mt">Habilidades</h2>
       <div class="skills">
         <figure class="skill">
           <figcaption class="name">Phyton 3</figcaption>
@@ -152,13 +157,53 @@
       </div>
     </article>
     <article class="main-achievements">
-      <h2 class="main-subtitle">Realizações</h2>    
+      <h2 class="main-subtitle -mt">Realizações</h2>    
       <div class="container">
-        <p class="achievement">1 <span class="description">Projeto(s) feito(s)</span></p>
-        <p class="achievement">0 <span class="description">Clientes felizes</span></p>
+        <p class="achievement">1 <span class="description">Projetos finalizados</span></p>
+        <p class="achievement">1 <span class="description">Clientes felizes</span></p>
         <p class="achievement">0 <span class="description">Contribuições open-source</span></p>
+        <p class="achievement">0 <span class="description">Hackathons</span></p>
+        <p class="achievement">0 <span class="description">Competições de programação</span></p>
       </div>
     </article>
+  </section>
+  <section class="wrap-portfolio" id="portfolio">
+    <h1 class="main-title -zero">Portfólio</h1>
+    <h2 class="main-subtitle -zero">Principais projetos</h2>
+    <main class="main-portfolio">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <article class="main-card">
+        <div class="content">
+          <h1 class="title">Meu portfólio</h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nemo. Temporibus,
+            molestias voluptatibus! Placeat similique reiciendis alias quas! Amet culpa veritatis placeat eligendi
+            cumque voluptates maiores ad libero repudiandae facilis?
+          </p>
+        </div>
+        <figure class="main-expand">
+          <figcaption class="subtitle">Ver grande</figcaption>
+          <img src="img/expand.svg" alt="Icone para ver a imagem maior" class="picture">
+        </figure>
+      </article>
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+      <img src="./img/Porfolio.PNG" alt="Foto do meu portfólio" class="project">
+    </main>
+  </section>
+  <section class="wrap-contact">
+    <h1 class="main-title">Contrate-me</h1>
+    <h2 class="main-subtitle -margin">Você receberá um e-mail automático com instruções.</h2>
+    <form action="" class="main-form">
+      <input type="text" class="input" placeholder="Coloque seu email">
+      <input type="submit" value="Enviar" class="main-btn -card btn">
+    </form>
   </section>
   <footer class="main-footer">
     <h1 class="main-logo">Marco Barão</h1>

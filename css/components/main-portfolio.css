@@ -1,0 +1,18 @@
+.main-portfolio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 250px);
+  grid-gap: 10px;
+  grid-template-areas:
+            ". . . ."
+            "desc desc . ."
+            ". . . .";
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-portfolio .project {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary);
+}

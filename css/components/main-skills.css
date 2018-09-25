@@ -1,18 +1,12 @@
 .main-skills {
-  padding: 0 15px 15px 15px;
-}
-
-.main-skills .paragraph {
-  font-size: 16px;
-  padding: 0 15px 10px 15px;
-  text-align: justify;
+  padding: 0 15px 0 15px;
 }
 
 .main-skills .skills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 20px;            
+  grid-gap: 20px;
 }
 
 .main-skills .name {

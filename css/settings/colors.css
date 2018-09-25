@@ -2,6 +2,8 @@
   --color-zero: #FBF9FB;
   --color-primary: #495388;
   --color-primary-o50: rgba(73, 83, 136, 0.5);
+  --color-primary-o80: rgba(73, 83, 136, 0.8);
+  --color-primary-o90: rgba(73, 83, 136, 0.9);
   --color-secondary: #E3E1E3;
   --color-tertiary: #292b2f;
 }

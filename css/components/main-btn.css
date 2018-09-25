@@ -16,3 +16,9 @@
 .main-btn:hover {
   opacity: 1;
 }
+
+.main-btn.-card {
+  border-radius: 0;
+  padding: 9px 35px;
+  font-size: 12px;
+}

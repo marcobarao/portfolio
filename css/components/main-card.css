@@ -1,0 +1,25 @@
+.main-card {
+  grid-area: desc;
+  position: relative;
+  width: 100%;
+  background-color: var(--color-primary-o90);
+  vertical-align: top;
+  color: var(--color-zero);
+}
+
+.main-card .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 510px;
+}
+
+.main-card .title {
+  font-size: 28px;
+}
+
+.main-card .description {
+  font-size: 14px;
+  opacity: 0.8;
+}
